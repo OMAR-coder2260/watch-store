@@ -1,0 +1,126 @@
+/* Navbar styles */
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+        
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(202, 202, 198);
+    padding: 15px;
+    text-align: center;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: rgb(42, 39, 97);
+}
+
+.navbar li {
+    float: center;
+}
+
+/* Section styles */
+body {
+    background: linear-gradient(to right, #0d193a, #171717);
+
+    background-size: cover;
+    opacity: 0.9;
+    background-repeat: no-repeat;
+
+}
+
+/* Image container styles */
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+
+/* Individual image item styles */
+.img-item {
+    text-align:center;
+}
+
+.img-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100px;
+    padding: 80px;
+}
+
+.img-item a {
+    font-size: 18px;
+    text-decoration:double;
+    color: rgb(224, 221, 221);
+   margin-top: 5px;
+   display: block;
+
+}
+
+
+body.signup-box{
+   
+    background-size: cover;
+ 
+
+}
+
+
+.signup-box{
+ text-shadow: 30px;
+    border-radius: 15px;    
+    width: 300px;
+    height: 300px; 
+    margin:auto;
+    display: block;
+
+}
+label{
+padding: 20px;
+margin-top: 10px;
+}
+ div.submit{
+padding: 12px;
+text-align: center;
+margin-bottom: 20px;
+
+}
+input{
+    border-radius: 30px;
+}
+.signup-box h2{
+
+    text-overflow: ellipsis;
+    
+}
+ .contact h3{
+    
+color: aliceblue;
+   justify-content: flex-end;
+   margin-bottom: 50vh;
+}
+details summary{
+    padding: 10px;
+    margin: auto;
+    color: #e6e5e5;
+
+}
+details p{
+
+    color:bisque;
+}
+.BABA{
+    justify-content: space-around;
+    flex-wrap: wrap;
+display: flex;
+gap: 20px;
+text-align:50vh;
+}
